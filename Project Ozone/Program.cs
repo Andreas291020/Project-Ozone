@@ -9,7 +9,11 @@ class Program
 
         CountTo(num: 5);
     }
-
+    
+    /// <summary>
+    /// This method counts to the number specified
+    /// </summary>
+    /// <param name="num"></param>
     static void CountTo(int num)
     {
         Console.WriteLine($"Counting to {num}");
